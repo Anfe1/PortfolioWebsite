@@ -16,3 +16,21 @@ code {
     monospace;
 }
 
+
+
+/* -----Skills----- */
+
+.card-body {
+  padding-top:15px;
+  
+  text-align: center;
+  background-color: #bbbdbb;
+  color: #0e421c;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card-body:hover {
+  transform: scale(1.06);
+  box-shadow: 0 40px 60px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  
+}

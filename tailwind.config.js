@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "woods-image": "url('/src/components/images/Header.jpg')",
+        "woods-image": "url('/src/components/images/background.jpg')",
       },
       colors: {
         dark: {
@@ -20,6 +20,12 @@ module.exports = {
           900: "#000000",
         },
       },
+    },
+    screen: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   plugins: [],
