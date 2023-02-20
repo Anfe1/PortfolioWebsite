@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="py-4 text-center bg-dark-500 text-white">
+    <div className="footer py-4 text-center text-white">
       <div>
         <ul className="flex mt-2 gap-4 items-center justify-center">
           <li>

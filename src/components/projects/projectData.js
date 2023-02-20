@@ -29,6 +29,16 @@ const projectsData = [
     link: "test",
     thumbnail: fla_project,
   },
+
+  {
+    title: "Table Data Display",
+    skills: "HTML, CSS, React.",
+    description:
+      "Front-end application that show table data with implemented charts.",
+    technology: "JavaScript, React, HTML, Material UI, React-Chart-JS and CSS.",
+    link: "test",
+    thumbnail: "test",
+  },
 ];
 
 export default projectsData;

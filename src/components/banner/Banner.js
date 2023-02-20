@@ -33,7 +33,7 @@ export default function Banner() {
             <p class="text-xl font-bold text-gray-300">
               Full-Stack web Developer | GIS Analyst
             </p>
-            <p className="text-md text-gray-400">
+            <p className="text-lg font-medium text-gray-300">
               I have dedicated experience in GIS, data analysis, and software
               development. I am a full-stack web developer that enjoys learning
               technologies to solve all kinds of problems. I have worked with

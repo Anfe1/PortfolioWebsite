@@ -5,7 +5,6 @@ import resume from "../documents/Andy_Fernandez_Resume.docx.pdf";
 
 export default function NavBar() {
   const [isExpanded, setExpanded] = useState(false);
-  const [opacity, setOpacity] = useState("opacity-100");
 
   const handleClick = () => {
     setExpanded(!isExpanded);
@@ -16,7 +15,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="fixed z-50 bg-teal-500 w-full top-0 left-0 px-8 py-4 lg:px-20 xl:px-36">
+    <div className="header z-50 bg-teal-500 w-full top-0 left-0 px-8 py-4 lg:px-20 xl:px-36">
       <div className="flex justify-between items-center text-white">
         <button
           onClick={handleClick}
@@ -38,7 +37,9 @@ export default function NavBar() {
             ></path>
           </svg>
         </button>
-        <Link to="#home">Andy Fernandez</Link>
+        <Link className="text-3xl " to="#home">
+          Andy Fernandez
+        </Link>
 
         <button
           className=" bg-teal-400 hover:bg-teal-900 rounded-full px-4 py-1  border-teal-800 border-4"
@@ -48,20 +49,20 @@ export default function NavBar() {
           Resume
         </button>
       </div>
-      <div className={isExpanded ? "active" : "hidden"}>
+      <div className={isExpanded ? "active md:hidden" : "hidden"}>
         <ul>
           <li className="p-4">
-            <Link to="#home" className="hover:underline">
+            <Link to="#home" className="hover:underline text-lg">
               Home
             </Link>
           </li>
           <li className="p-4">
-            <Link to="#honors" className="hover:underline">
+            <Link to="#honors" className="hover:underline text-lg">
               Skills
             </Link>
           </li>
           <li className="p-4">
-            <Link to="#certs" className="hover:underline">
+            <Link to="#certs" className="hover:underline text-lg">
               Projects
             </Link>
           </li>

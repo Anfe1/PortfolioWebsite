@@ -6,7 +6,7 @@ export default function SkillCard() {
       {skills.map((skill, index) => (
         <div
           id={index}
-          className="card-body  rounded overflow-hidden shadow-lg "
+          className="card-body  rounded overflow-hidden shadow-lg hover:bg-gray-300"
         >
           <iconify-icon
             icon={skill.icon}
