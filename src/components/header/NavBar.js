@@ -37,7 +37,7 @@ export default function NavBar() {
             ></path>
           </svg>
         </button>
-        <Link className="mx:auto text-lg md:text-4xl text-center" to="#home">
+        <Link className="mx:auto text-lg sm:text-4xl text-center" to="#home">
           Andy Fernandez
         </Link>
 
