@@ -1,3 +1,5 @@
+import ContactInfo from "../contact/ContactInfo";
+
 export default function Footer() {
   return (
     <div className="footer py-4 text-center text-white">
@@ -26,6 +28,9 @@ export default function Footer() {
             </a>
           </li>
         </ul>
+      </div>
+      <div>
+        <ContactInfo />
       </div>
     </div>
   );

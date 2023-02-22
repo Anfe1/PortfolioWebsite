@@ -37,12 +37,12 @@ export default function NavBar() {
             ></path>
           </svg>
         </button>
-        <Link className="text-3xl " to="#home">
+        <Link className="text-4xl " to="#home">
           Andy Fernandez
         </Link>
 
         <button
-          className=" bg-teal-400 hover:bg-teal-900 rounded-full px-4 py-1  border-teal-800 border-4"
+          className=" bg-green-100 text-teal-900 hover:bg-teal-900 hover:text-white rounded-full px-4 py-1  border-teal-800 border-4"
           role="link"
           onClick={() => openInNewTab(resume)}
         >
@@ -52,19 +52,19 @@ export default function NavBar() {
       <div className={isExpanded ? "active md:hidden" : "hidden"}>
         <ul>
           <li className="p-4">
-            <Link to="#home" className="hover:underline text-lg">
+            <a href="#home" className="hover:underline text-lg">
               Home
-            </Link>
+            </a>
           </li>
           <li className="p-4">
-            <Link to="#honors" className="hover:underline text-lg">
+            <a href="#skills" className="hover:underline text-lg">
               Skills
-            </Link>
+            </a>
           </li>
           <li className="p-4">
-            <Link to="#certs" className="hover:underline text-lg">
+            <a href="#projects" className="hover:underline text-lg">
               Projects
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

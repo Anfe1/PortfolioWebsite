@@ -7,6 +7,7 @@ export default function Projects() {
       <p className="font-light text-gray-400 py-2">
         Projects related to software Development, GIS, and Data Analysis.
       </p>
+
       <div className="mt-4">
         <ProjectCard />
       </div>
