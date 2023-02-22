@@ -85,6 +85,3 @@ export default function Banner() {
     </>
   );
 }
-
-// flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative
-// md:w-3/6 md:p-4

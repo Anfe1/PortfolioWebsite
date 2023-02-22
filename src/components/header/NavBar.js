@@ -20,7 +20,7 @@ export default function NavBar() {
         <button
           onClick={handleClick}
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm bg-teal-700 rounded-lg md:hidden hover:bg-teal-900 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 m-1 text-sm bg-teal-700 rounded-lg md:hidden hover:bg-teal-900 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         >
           <span class="sr-only">Open main menu</span>
           <svg
@@ -37,12 +37,12 @@ export default function NavBar() {
             ></path>
           </svg>
         </button>
-        <Link className="text-4xl " to="#home">
+        <Link className="mx:auto text-lg md:text-4xl text-center" to="#home">
           Andy Fernandez
         </Link>
 
         <button
-          className=" bg-green-100 text-teal-900 hover:bg-teal-900 hover:text-white rounded-full px-4 py-1  border-teal-800 border-4"
+          className=" bg-green-100 text-teal-900 hover:bg-teal-900 hover:text-white rounded-full px-4 py-1  border-teal-800 border-4 text-sm md:text-lg"
           role="link"
           onClick={() => openInNewTab(resume)}
         >
