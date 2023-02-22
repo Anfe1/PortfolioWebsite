@@ -18,11 +18,32 @@ export default function ProjectCard() {
           <div className="mt-2">
             <h1 className="font-bold md:text-xl">{project.title}</h1>
             <p className="font-light md:text-lg">{project.description}</p>
-            <br></br>
+            <br />
             <p className="font-light text-gray-400">
               <strong>Project Technology:</strong>
             </p>
             <p className="font-light text-green-400">{project.technology}</p>
+            <br />
+            <p className="font-light text-gray-400">Status: {project.status}</p>
+            <br />
+            <div className="grid md:grid-cols-2">
+              <a
+                className="font-light text-green-200 hover:text-green-600 hover:underline"
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                See Live Website
+              </a>
+              <a
+                className="font-light text-green-200 hover:text-green-600 hover:underline"
+                href={project.gitHub}
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
       ))}
